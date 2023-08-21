@@ -1,0 +1,16 @@
+Name is babrak
+Your task is to design and implement a custom file compression algorithm. You need to create a Python program that takes a file as input and compresses its contents using your own compression technique. The compressed file should be smaller in size compared to the original file, and the decompression process should be able to perfectly reconstruct the original content.
+
+Requirements:
+
+Write a Python program that performs the following steps:a. Read the contents of the input file.b. Apply your custom compression algorithm to the content.c. Write the compressed content to an output file.
+
+Implement a decompression feature:a. Write a separate function that takes a compressed file as input and reconstructs the original content.b. The decompressed content should match the original content exactly.
+
+Test the compression and decompression processes:a. Create multiple test files with different sizes and types of content (text, binary, mixed data).b. Compress these test files using your program.c. Decompress the compressed files and verify that the reconstructed content matches the original content.
+
+Document your custom compression algorithm:a. Provide clear comments and documentation explaining how your compression algorithm works.b. Include any assumptions, limitations, or trade-offs of your algorithm.
+
+Optimize for efficiency:a. Aim to create an algorithm that provides a reasonable level of compression while maintaining a decent level of execution speed.
+
+Bonus Challenge:Implement a command-line interface (CLI) for your compression program, allowing users to easily compress and decompress files using your algorithm.
