@@ -15,7 +15,7 @@ def decompress_file(compress_file_path):
     with open("decompressed.txt", 'wb') as f:
         f.write(decompressed_data)
         print(f"Your Original Content will be= {decompressed_data}")
-        print(f"Path of Compressed file is= {os.path.abspath('decompressed.txt')}")
+        print(f"\nPath of Decompressed file is= {os.path.abspath('decompressed.txt')}")
 
 
 

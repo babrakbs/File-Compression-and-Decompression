@@ -14,7 +14,7 @@ def compress_file(file_path):
     with open("compressed_data.zlib", 'wb') as cf:
         print("Compressed File Created")
         cf.write(compressed_data)
-        print(f"Path of Compressed file is= {os.path.abspath('compressed.zlib')}")
+        print(f"\nPath of Compressed file is= {os.path.abspath('compressed_data.zlib')}")
 
 
     # De-compression
